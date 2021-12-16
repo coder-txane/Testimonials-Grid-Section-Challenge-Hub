@@ -1,0 +1,104 @@
+html, body {
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-size: 13px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   width: 100vw;
+}
+
+body {
+   background-color: hsl(210, 46%, 95%);
+}
+
+:root {
+   --header-color: hsl(0, 0%, 100%);
+}
+
+.container {
+   margin: auto;
+   position: relative;
+}
+
+.container-wrapper {
+   margin: auto;
+   position: absolute;
+   display: grid;
+}
+
+.testimonial-boxes {
+   padding: 3% 5%;
+   border-radius: 10px;
+}
+
+#testimonial-one {
+   background-color: hsl(263, 55%, 52%);
+   color: var(--header-color);
+}
+
+#testimonial-two {
+   background-color: hsl(217, 19%, 35%);
+   color: var(--header-color);
+}
+
+#testimonial-three {
+   background-color: var(--header-color);
+   color: hsl(217, 19%, 35%);
+}
+
+#testimonial-four {
+   background-color: hsl(219, 29%, 14%);
+   color: var(--header-color);
+}
+
+#testimonial-five {
+   background-color: var(--header-color);
+   color: hsl(217, 19%, 35%);
+}
+
+#testimonial-one .profile-pic {
+   border: rgba(255, 255, 255, 0.3) 2px solid;
+}
+
+#testimonial-four .profile-pic {
+   border:hsl(263, 55%, 52%) 2px solid;
+}
+
+.profile-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.profile-details {
+   position: relative;
+   top: 1px;
+}
+
+.username {
+   margin: 0;
+   font-weight: 500;
+}
+
+.job-title {
+   margin-top: 3px;
+   opacity: 50%;
+   font-weight: 500;
+}
+
+.header {
+   margin-top: 5px;
+}
+
+.review {
+   font-weight: 500;
+   opacity: 70%;
+}
+
+.profile-pic {
+   border-radius: 50%;
+   height: 40px; width: 40px;
+   overflow: hidden;
+   margin-right: 20px;
+}
+
