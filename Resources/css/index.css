@@ -85,23 +85,18 @@ body {
 
 #testimonial-one .review {
    width: 100%;
-   font-size: 13px;
-}
-
-#testimonial-two .review {
-   font-size: 13px;
 }
 
 #testimonial-three .review {
+   width: 90%;
+}
+
+#testimonial-four .review {
    width: 100%;
 }
 
 #testimonial-five .review {
-   width: 95%;
-}
-
-.testimonial-boxes .review {
-   width: 95%;
+   width: 90%;
 }
 
 #testimonial-one .profile-pic {
@@ -140,8 +135,16 @@ body {
    z-index: 2;
 }
 
-#testimonial-three .header {
+#testimonial-two .header {
    padding-right: 10%;
+}
+
+#testimonial-three .header {
+   padding-right: 20%;
+}
+
+#testimonial-four .header {
+   width: 100%;
 }
 
 .review {
