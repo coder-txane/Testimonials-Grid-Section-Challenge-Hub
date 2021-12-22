@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: This is my [solution](https://github.com/coder-txane/Testimonials-Grid-Section-Challenge-Hub.git)
+- Solution URL: This is my [solution](https://www.frontendmentor.io/solutions/testimonials-grid-section-challenge-hub-Rkif4Rxie)
 - Live Site URL: This is the [live site](https://coder-txane.github.io/Testimonials-Grid-Section-Challenge-Hub/)
 
 ## My process
